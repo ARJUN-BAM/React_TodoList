@@ -1,0 +1,30 @@
+.caution{
+    width: 65vw;
+    height: 5vh;
+    /* border: 1px solid black; */
+    color: red;
+    font-size: 18px;
+    position: fixed;
+    left: 0;
+    bottom: 15vh;
+    display: flex;
+    align-items: center;
+    animation: cautionNotify 3s ease-out;
+}
+
+@keyframes cautionNotify {
+    from{
+        opacity: 0;
+    }
+    to{
+        transform: translateX(50px);
+    }
+    
+}
+
+.caution span{
+    margin-left: 10px;
+}
+.caution i{
+    font-size: 25px;
+}

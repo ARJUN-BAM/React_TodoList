@@ -1,0 +1,25 @@
+.taskcard{
+    list-style: none;
+    width: 40%;
+    max-width:50%;
+    min-height: 40px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(155, 154, 154); 
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    box-shadow: 0px 1px 1px rgb(168, 168, 168);
+}
+.taskcard span{
+    max-width:75%;
+}
+.pending{
+    background-color: rgb(253, 223, 223);
+}
+.done{
+    background-color: rgb(169, 253, 169);
+    /* background-color: green; */
+}

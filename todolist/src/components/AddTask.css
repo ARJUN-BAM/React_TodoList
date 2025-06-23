@@ -1,0 +1,35 @@
+.addtask{
+    margin-top: 10vh;
+    width: 80vh;
+    height: 10vh;
+    border-left: 1px solid rgb(246, 233, 233);
+    border-top: 1px solid rgb(246, 233, 233);
+    box-shadow: 0px 1px 1px rgb(168, 168, 168);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addtask .addingTask{
+    width: 60%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(207, 199, 199);
+    background-color: whitesmoke;
+}
+
+.addtask select{
+    width: 12%;
+    padding: 10px 0px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.addtask button{
+    height: 45%;
+    padding: 0px 20px;
+    font-size: 15px;
+}

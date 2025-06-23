@@ -1,0 +1,20 @@
+.header{
+    width: 79.9vw;
+    height: 10vh;
+    padding: 0px 40px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #90D1CA; /*  Header color */
+    color: #129990;
+}
+.header > img{
+    height: 100%;
+}
+.header > h1{
+    font-size: 50px;
+    padding: 0px 15px;
+    border-radius: 15px;
+    background-color: #FFFBDE;
+}

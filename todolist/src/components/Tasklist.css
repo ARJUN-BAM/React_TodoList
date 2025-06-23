@@ -1,0 +1,30 @@
+.tasklist{
+    width: 80vh;
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: rgb(240, 237, 237);
+}
+.tasklist ul{
+    max-width: 100%;
+    max-height: 35vh;
+    display: flex;
+    /* flex-direction:column ; */
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    overflow: auto;
+    row-gap: 15px;
+    column-gap: 10px;
+}
+.tasklist div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 1px rgb(168, 168, 168);
+}
+.tasklist h1{
+    font-size: 30px;
+}
